@@ -1,0 +1,114 @@
+<style>
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.heading {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(30, 78, 121);
+    color: white;
+    justify-content: flex-start;
+    gap: 15%;
+  }
+
+  .introduction {
+    box-sizing: border-box;
+    max-width: 800px;
+    max-height: 300px;
+    color: white;
+    align-items: last baseline;
+    padding: 3em;
+  }
+
+  .image_section {
+    box-sizing: border-box;
+    align-items: end;
+    max-width: 300px;
+    max-height: 200px;
+    /* align-content: end; */
+  }
+
+  img {
+    margin-top: 2rem;
+    /* padding: 1vh; */
+    border: white solid 5px;
+    /* align-items: right; */
+  }
+  .name {
+    font-size: 4em;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .subheading_style {
+    display: flex;
+    gap: 0;
+    border-bottom: 3px solid rgb(30, 78, 121);
+  }
+
+  .section_headings {
+    background-color: rgb(30, 78, 121);
+    color: white;
+    font-size: 1.3em;
+    width: 20%
+    margin: 30px 10px 0px 0px;
+    text-align: center;
+    gap: 0;
+    border-bottom: 3px solid rgb(30, 78, 121);
+  }
+
+  .section_heading_line {
+    background-color: rgb(30, 78, 121);
+    margin: 50px 10px 10px 10px;
+  
+  }
+
+  .maindiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .first {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    text-align: left;
+  }
+
+  .second {
+    /* text-align: right; */
+    padding: 20px;
+    width: 1000px;
+    height: 90px;
+    
+  }
+
+  .communicate {
+    box-sizing: border-box;
+    max-width: 90%;
+    max-height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px; 
+  }
+
+  .line {
+    /* border-top: 3px solid rgb(30, 78, 121); */
+    margin: 100px 0px 0px 20 px;
+    /* margin-bottom: 30px; */
+    position: absolute;
+  }
+
+
+</style>
